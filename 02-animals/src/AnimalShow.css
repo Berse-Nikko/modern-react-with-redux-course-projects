@@ -1,0 +1,19 @@
+.animal {
+  display: flex;
+  width: fit-content;
+  position: relative;
+  margin: 10px;
+}
+
+.animal-svg {
+  width: 200px;
+  border: 1px black solid;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.heart-svg {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+}

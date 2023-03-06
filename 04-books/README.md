@@ -1,5 +1,19 @@
-### `npm install`
+# Books Project
 
-### `npm start`
+#### Install node modules
 
-### `npm run server`
+```
+npm install
+```
+
+#### Run program
+
+```
+npm start
+```
+
+#### Start JSON Server
+
+```
+npm run server
+```

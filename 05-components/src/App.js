@@ -1,36 +1,33 @@
-import { GoBell } from "react-icons/go"
-import Button from "./Button"
+import Route from "./components/Route"
+import {
+  AccordionPage,
+  ButtonPage,
+  DropdownPage,
+  ModalPage,
+  TablePage,
+} from "./pages"
+import Sidebar from "./components/SideBar"
 
 const App = () => {
-  const handleClick = () => {
-    console.log("Clicked")
-  }
-
   return (
-    <div>
-      <div>
-        <Button success outline rounded className="mb-5" onClick={handleClick}>
-          <GoBell />
-          Hello
-        </Button>
-      </div>
-      <div>
-        <Button danger outline>
-          Hi there
-        </Button>
-      </div>
-      <div>
-        <Button warning>Click Me</Button>
-      </div>
-      <div>
-        <Button secondary outline>
-          Click Here
-        </Button>
-      </div>
-      <div>
-        <Button primary rounded>
-          Don't Click
-        </Button>
+    <div className="container mx-auto grid grid-cols-6 gap-4 mt-4">
+      <Sidebar />
+      <div className="col-span-5">
+        <Route path="/">
+          <DropdownPage />
+        </Route>
+        <Route path="/button">
+          <ButtonPage />
+        </Route>
+        <Route path="/accordion">
+          <AccordionPage />
+        </Route>
+        <Route path="/modal">
+          <ModalPage />
+        </Route>
+        <Route path="/table">
+          <TablePage />
+        </Route>
       </div>
     </div>
   )

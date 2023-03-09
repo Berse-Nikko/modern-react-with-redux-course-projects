@@ -1,0 +1,65 @@
+{
+  "users": [
+    {
+      "name": "Tim Schmeler",
+      "id": 4
+    },
+    {
+      "name": "Jared Luettgen",
+      "id": 5
+    },
+    {
+      "name": "Jennie Durgan",
+      "id": 6
+    }
+  ],
+  "albums": [
+    {
+      "id": 6,
+      "title": "Dancing Marathon",
+      "userId": 4
+    },
+    {
+      "userId": 5,
+      "title": "Recycled Bronze Ball",
+      "id": 9
+    },
+    {
+      "userId": 6,
+      "title": "Incredible Granite Keyboard",
+      "id": 10
+    },
+    {
+      "userId": 6,
+      "title": "Handcrafted Steel Car",
+      "id": 11
+    },
+    {
+      "userId": 4,
+      "title": "Incredible Soft Shirt",
+      "id": 12
+    }
+  ],
+  "photos": [
+    {
+      "albumId": 6,
+      "url": "https://loremflickr.com/150/150/abstract?lock=83679",
+      "id": 1
+    },
+    {
+      "albumId": 6,
+      "url": "https://loremflickr.com/150/150/abstract?lock=31651",
+      "id": 2
+    },
+    {
+      "albumId": 6,
+      "url": "https://loremflickr.com/150/150/abstract?lock=85204",
+      "id": 3
+    },
+    {
+      "albumId": 12,
+      "url": "https://loremflickr.com/150/150/abstract?lock=14578",
+      "id": 4
+    }
+  ]
+}
